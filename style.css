@@ -1,0 +1,26 @@
+@font-face {
+    font-family: itsme;
+    src: url('./Poppins-Regular.ttf');
+}
+
+body{
+background-color: #141F32;
+font-family: itsme;    
+}
+
+#clock{
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 78px; 
+margin-top: 190px;  
+}
+
+#day{
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 27px;   
+}
